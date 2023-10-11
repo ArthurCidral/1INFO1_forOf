@@ -6,16 +6,21 @@
     Leia a lista e some APENAS OS NÚMEROS DECIMAIS.
     Apresente o resultado da somatória desses números.
     */
+    let lista = [3.5, 4.2, 5, 8, 9.3, 7];
+   let total = [];
 
-    //Entrada
+   for(let i of lista);
+   {
+    if (lista[i] %1 === 0)
+    {
+        console.log('Não é decimal');
+        }
+        else{
+            total += lista[i]
+        }
+   }
 
-
-    //Processamento
-
-
-    //Saída
-
-
+   document.write(`soma decimais ${total.join(" , ")}.`);
     /*
     A somatória dos números decimais será de 17.
     */
